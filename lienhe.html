@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Liên Hệ </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #a8c0ff, #d9f1ff);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            25% {
+                background-position: 50% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            75% {
+                background-position: 50% 100%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .smart-card {
+            background: rgba(7, 231, 171, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(23, 199, 243, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        .smart-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 2px solid #ddd;
+        }
+
+        .smart-card h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .smart-card p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #555;
+        }
+
+        .smart-card a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .smart-card a:hover {
+            text-decoration: underline;
+        }
+
+        .smart-card .icon {
+            display: inline-block;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="smart-card">
+        <img src="images.jpg" alt="Profile Picture">
+        <h2>Trường THPT Quảng Xương II </h2>
+
+        <p>
+            <span class="icon">📘</span>
+            <strong>Facebook:</strong> <a href="https://www.facebook.com/thptQuangXuongII" target="_blank">THPT Quảng
+                Xương II
+            </a>
+        </p>
+
+    </div>
+</body>
+
+</html>

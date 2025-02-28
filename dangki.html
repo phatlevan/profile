@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b1 </title>
+    <style>
+        .bt_add {
+            border: none;
+            width: 70px;
+            height: 25px;
+            border-radius: 90px;
+            background: linear-gradient(to right, rgb(28, 206, 215));
+            box-shadow: 3px 3px 3px rgb(rgb(231, 67, 67));
+        }
+
+        .bt_edit {
+            border: none;
+            width: 70px;
+            height: 25px;
+            border-radius: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <h3>Đăng Kí </h3>
+        <label for="">Họ Và Tên
+            <input type="text" name="id">
+        </label>
+        <br><br>
+        <fieldset>
+            <legend>Giới Tính </legend>
+            <input id="male" name="gender" type="radio">
+            <label for="male">Nam </label>
+
+
+            <input id="male" name="gender" type="radio">
+            <label for="male">Nữ </label>
+            <br>
+        </fieldset>
+        <label for=""> Ngày sinh </label><br>
+        <input type="text" placeholder="dd/mm/yy" name="" id=""><br><br>
+        <label for="">Chức vụ </label>
+        <input list="job_data" style="width: 100%;" type="text">
+        <datalist id="job_data">
+            <option value="Giáo viên "></option>
+            <option value="Học sinh "></option>
+            <option value="Phụ huynh "></option>
+        </datalist><br><br>
+        <label for="">Lớp
+            <input type="text">
+        </label><br><br>
+        <label for="">Ghi Chú </label><br>
+        <textarea name="" id=""></textarea>
+        <hr>
+        <button style="background: red;border-radius: 90px;" type="submit">Đăng Kí </button>
+        <button style="background: yellow;border-radius: 90px;" type="reset">Quay lại</button>
+    </form>
+
+
+</html>
